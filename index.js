@@ -15,8 +15,8 @@ app.use("/", commentRouter);
 
 connect()
   .then(() => {
-    app.listen(3005, () => {
-      console.log("Server is running at port no. 3005");
+    app.listen(3050, () => {
+      console.log("Server is running at port no. 3050");
     });
   })
   .catch((err) => {
